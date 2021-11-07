@@ -40,7 +40,7 @@ df = pandas.DataFrame(result)
 df.columns = ['page', 'id', 'title', 'main_reference_number','has_not_been_viewed_much', 'date_start', 'date_end', 'date_display', 'artist_display', 'place_of_origin', 'exhibition_history', 'colorfulness', 'department_title', 'artist_title', 'style_title', 'classification_title']
 
 #finally, we save it in a csv file
-df.to_csv(csv_file_path, index=False)
+df.to_csv(csv_file_path, index=False, sep =";")
 
 
 
