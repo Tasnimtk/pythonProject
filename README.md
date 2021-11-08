@@ -7,7 +7,7 @@ The data chosen is from the Art institute of Chicago (https://api.artic.edu/docs
 Before collecting the data, we chose the features we deemed important for our analysis. To do so, we edited the URL using 'fields'.
 
 ### The features chosen are:
-- page: the page in which the observation is [from 1 to 15]
+- page: integer - The page in which the observation is [from 1 to 15]
 - id: integer - Unique identifier of this resource. Taken from the source system.
 - title: string - The name of this resource
 - main_reference_number: string - Unique identifier assigned to the artwork upon acquisition
