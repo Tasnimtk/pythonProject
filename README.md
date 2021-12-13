@@ -1,4 +1,6 @@
-# pythonProject
+# Python & R Project
+
+## Task 1: Data Collection
 
 This repository is dedicated to the project within the python and R for data science Lab.
 The file API.py represents the first step of the project, which is collecting data from an API.
@@ -6,7 +8,9 @@ The data chosen is from the Art institute of Chicago (https://api.artic.edu/docs
 
 Before collecting the data, we chose the features we deemed important for our analysis. To do so, we edited the URL using 'fields'.
 
-### The features chosen are:
+- - - -
+
+#### The features chosen are:
 - page: integer - The page in which the observation is [from 1 to 15]
 - id: integer - Unique identifier of this resource. Taken from the source system.
 - title: string - The name of this resource
@@ -28,3 +32,16 @@ Before collecting the data, we chose the features we deemed important for our an
 
 We then set the limit of the page to 100 instead of the default 12 to facilitate looping.
 Finally, we extracted the data from 15 pages, and then we merged them all in a new file.
+
+
+## Task 2: Data Analysis
+
+#### Dataset 1: Art Dataset
+For dataset 1, we analyze our dataset using python language.
+There is a google collab file 'Python_&_aRt_project.ipynb' in the repository with our code and documentation.
+In this work, we provide some data processing & visualization of the dataset.
+
+#### Dataset 2: Weather Dataset
+For dataset 2, we decided to analyze the Weather dataset from the repository https://github.com/enricoromano/Python-and-R-project- using R programming language.
+The work is in R and Rmd format under the name 'Task2.R' & 'Task-2.Rmd'.
+In this work, we provide some data processing & visualization of the dataset.
