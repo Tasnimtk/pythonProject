@@ -43,5 +43,5 @@ In this work, we provide some data processing & visualization of the dataset.
 
 #### Dataset 2: Weather Dataset
 For dataset 2, we decided to analyze the Weather dataset from the repository https://github.com/enricoromano/Python-and-R-project- using R programming language.
-The work is in R and Rmd format under the name 'Task2.R' & 'Task-2.Rmd'.
+The work is in R format under the name 'Task2.R'
 In this work, we provide some data processing & visualization of the dataset.
